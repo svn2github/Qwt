@@ -39,11 +39,9 @@ CONFIG           += dll
 # DEFINES          += QT_NO_CAST_ASCII
 # DEFINES          += QT_NO_CAST_TO_ASCII
 
-MOC_DIR           = src/moc
-OBJECTS_DIR       = src/obj
-DESTDIR           = lib
-INCLUDEPATH      += include
-DEPENDPATH       += include src
+MOC_DIR           = moc
+OBJECTS_DIR       = obj
+DESTDIR           = ../lib
 
 win32:dll:DEFINES    += QT_DLL QWT_DLL QWT_MAKEDLL
 
@@ -160,8 +158,8 @@ SOURCES = \
 ##############################################
 
 # QT += svg
-# HEADERS += include/qwt_plot_svgitem.h
-# SOURCES += src/qwt_plot_svgitem.cpp 
+# HEADERS += qwt_plot_svgitem.h
+# SOURCES += qwt_plot_svgitem.cpp 
 
 ##############################################
 # If you are interested in the plot widget
