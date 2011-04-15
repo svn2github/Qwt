@@ -1,0 +1,29 @@
+Qwt TODO list
+
+Ideas
+------
+- Improve Documention
+- QAbstractModel -> QwtSeriesData
+- Curves for financial charts, box-whisker
+- QwtSeriesData + functors
+- QwtSeriesData/QwtPlotCurve + Level of details (Douglas Peucker)
+- Common zoom stack for all navigation objects
+- Watermark Item
+- Contour algorithm for vectors: http://apptree.net/conrec.htm
+- OpenGL plot canvas
+- Time/Date scale engine
+- TeX texts
+- Grid of QwtPlots
+- Interval scale labels ( between 2 ticks )
+- More than 4 axes
+- QwtPlotLegendItem: legend item on the canvas
+- QwtSymbol/QwtIntervalSymbol + QPainterPath
+- QwtPlotScene + breaking composite architecture
+- Using QStaticText for markers ( and scales ? )
+
+Bugs/Change requests
+--------------------
+1) QwtPlotDict, performance of z sorting
+2) Layout init of round scales too late.
+3) Remove QwtScaleTransformation::copy()
+4) Remove valid flag of QwtScaleDiv
